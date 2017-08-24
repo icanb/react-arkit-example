@@ -1,3 +1,5 @@
 rootProject.name = 'ReactArkitExample'
+include ':react-arkit'
+project(':react-arkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-arkit/android')
 
 include ':app'
